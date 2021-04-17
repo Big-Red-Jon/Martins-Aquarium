@@ -1,0 +1,73 @@
+/* this code imports the other CSS files so you may edit without effecting the main css structure */
+@import './fish.css';
+@import './quotes.css';
+@import './locations.css';
+
+ /* This removes any white space on the visual part of the website. */
+body {
+    margin: 0;
+    background-color: lightcoral;
+}
+/* This places the items in the title in a specific order */
+.title-header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: lightblue;
+}
+/* This helps the title text space out better */
+.main-heading {
+    margin:  auto;
+    font-size: 3rem;
+}
+
+.martin-inventory{
+    background-color: rgb(26, 216, 111);
+    padding: 5px;
+}
+.martin-title {
+    text-align: center;
+    margin: auto;
+    /* border: 2px solid green; */
+}
+/* This controls the fish names at the top of the inventory section */
+h3 {
+    text-align: center;
+    font-size: larger;
+    border-bottom: 2px solid black;
+    margin: 5px;
+}
+/* This allows for the inventory content to be placed as desired */
+.fish-content {
+    display: flex;  
+}
+
+/* This controls image size for the fish images */
+.fish-img {
+    width: 10rem;
+    flex: 2;
+}
+.fish-data {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto; 
+    text-align: center;
+}
+/* This section allows the main content and aside to exist side by side easily */
+main {
+    display: flex;
+}
+.float-left {
+    flex: 3;
+}
+.float-right {
+    flex: 1;
+}
+
+.tip-title {
+    text-align: center;
+}
+
+.tip {text-align: center;
+}
