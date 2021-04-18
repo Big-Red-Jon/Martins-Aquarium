@@ -1,0 +1,9 @@
+.fish-locations {
+   padding: 15px; 
+   background-color: coral;
+}
+
+.locations {
+    border-bottom: 2px solid black;
+    padding: 0px 15px;
+}

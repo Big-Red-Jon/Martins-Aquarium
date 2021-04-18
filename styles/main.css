@@ -5,8 +5,9 @@
 
  /* This removes any white space on the visual part of the website. */
 body {
-    margin: 0;
-    background-color: lightcoral;
+    margin: 0 50px;
+    background-color: rgb(128, 195, 240);
+    /* background-image: url("images/Ocean.JPEG"); */
 }
 /* This places the items in the title in a specific order */
 .title-header {
@@ -14,6 +15,7 @@ body {
     flex-direction: row-reverse;
     justify-content: space-around;
     background-color: lightblue;
+    height: 10rem;
 }
 /* This helps the title text space out better */
 .main-heading {
@@ -63,11 +65,39 @@ main {
 }
 .float-right {
     flex: 1;
+    background-color: rgb(182, 53, 233);
+    color: white;
+    padding: 10px;
 }
 
 .tip-title {
     text-align: center;
 }
 
-.tip {text-align: center;
+.tip {
+    text-align: center;
+    font: bold;
+}
+
+.sec-quotes {
+    background-color:rgb(241, 94, 41);
+    padding: 25px;
+    margin: 0;
+}
+/* This is for the location images */
+.local-img {
+    width: 15rem;
+    height: 8rem;
+}
+
+
+.footer {
+    background-color: black;
+    /* margin: -25px 0px; */
+    color: white;
+    padding: 10px 0px 10px 20px;
+  /* left:0;
+  right:0;
+  margin:0;
+  top:0; */
 }
